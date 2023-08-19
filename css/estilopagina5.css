@@ -1,0 +1,30 @@
+.pag5{
+    color: black;
+    background-color: rgb(250, 250, 250);
+    font-family: Arial;
+}
+.titulo5{
+    margin: 5px;
+    font-family: Arial;
+    background-color: rgb(255, 250, 243) ;
+    float: none;
+    color: black;
+    list-style-type: none;
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+}
+body{
+    background-color:darkgrey;
+}
+.menu {
+  
+    font-family: Arial;
+    float: none;
+    color: black;
+    list-style-type: none;
+    display: flex;
+    background-color: wheat;
+    margin: 0%;
+    padding: 0%;
+}

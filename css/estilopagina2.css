@@ -1,0 +1,25 @@
+.t2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.p2{
+    color: black;
+    justify-content: center;
+    font-size: 25px;
+}
+body{
+    background-color:antiquewhite;
+}
+.menu {
+  
+    font-family: Arial;
+    float: none;
+    color: black;
+    list-style-type: none;
+    display: flex;
+    background-color: wheat;
+    margin: 0%;
+    padding: 0%;
+    
+}

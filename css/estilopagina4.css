@@ -1,0 +1,35 @@
+.titulo1 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    background-color: brown;
+    margin: 0%;
+    padding: 0%;
+}
+.P1{
+    color: black;
+    justify-content: center;
+    font-size: 25px;
+}
+.img{
+    float: none;
+    text-align: center;
+    background-color: darksalmon;
+    margin-left: 25%;
+    margin-right: 25%; 
+    padding: 1%;
+}
+.fondo4{
+    background-color: burlywood;
+}
+.menu {
+  
+    font-family: Arial;
+    float: none;
+    color: black;
+    list-style-type: none;
+    display: flex;
+    background-color: wheat;
+    margin: 0%;
+    padding: 0%;
+}

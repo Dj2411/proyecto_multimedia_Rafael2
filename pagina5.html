@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilopagina5.css">
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <nav class="menu">
+               <th><span><a href="index.html">Incio</a></span></th>
+                
+                <th><span><a href="pagina4.html">¿Qué es un Sistema Operativo?</a></span></th>
+            
+                <th><span><a href="pagina2.html">¿Para que sirve un sistema Operativo?</a></span></th>
+            
+                <th><span> <a href="pagina3.html">Tipos de Sistemas Operativos</a></span></th>
+        
+                <th><span><a href="pagina5.html">Formulario de contáctenos </a></span></th>
+            </nav>
+        </tr>
+    </table>
+    <div class="titulo5">
+        <h2>Formulario de Contacto</h2>
+    </div>
+    <br>
+   <div class="pag5">
+    <form action="/enviar_formulario" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="Apellido">Apellido:</label>
+        <input type="text" id="Apellido" last name="Apellido" required><br><br>
+
+        <label for="Numero">Numero:</label>
+        <input type="number" id="Numero" name="Numero" pattern="[0-9]{10}" required><br><br>
+
+        <label for="direccion">Dirección:</label><br>
+        <textarea id="direccion" name="direccion" rows="4" cols="50" required></textarea><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Enviar">
+      </form>
+   </div>
+      
+</body>
+</html>

@@ -1,0 +1,33 @@
+.pg3{
+    color: black;
+    justify-content: center;
+    font-size: 25px;
+}
+.T1{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin: 0%;
+    padding: 0%;
+    background-color: chocolate;
+}
+body{
+    background-image: url(http://ru.baltic-review.com/wp-content/uploads/2014/09/HI-Tech-HD-Wallpapers-34-MgPic.com_.jpg);
+}
+.pg1{
+    background-color: brown;
+    padding:1%;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+.menu {
+  
+    font-family: Arial;
+    float: none;
+    color: black;
+    list-style-type: none;
+    display: flex;
+    background-color: wheat;
+    margin: 0%;
+    padding: 0%;
+}
